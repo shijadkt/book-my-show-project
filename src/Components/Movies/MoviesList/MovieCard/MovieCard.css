@@ -1,0 +1,17 @@
+.card {
+    transition: 0.3s;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+.card p{
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+}
+.card img{
+    min-height: 90%;
+}

@@ -1,0 +1,9 @@
+.filter-outer{
+    display: flex;
+    align-items: center;
+}
+.filter-outer p {
+    font-size: 14px;
+    color: #9c9c9c;
+    margin-right: 30px;
+}

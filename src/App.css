@@ -1,12 +1,18 @@
 *{
   box-sizing: border-box;
 }
-p, h1, h2, h3, h4, h5, h6{
+p, h1, h2, h3, h4, h5, h6, ul, li{
   margin: 0;
 }
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.not-found{
+  height: 100vh;
+  background-color: #2e2b2b;
+  display: flex;
+  justify-content: center;
+  color: #fff;
 }

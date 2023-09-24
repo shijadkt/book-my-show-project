@@ -1,0 +1,105 @@
+button{
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px 20px;
+}
+.button-primary{
+    background-color: #65cfad;
+}
+.button-secondary{
+    background-color: #393838;
+}
+option{
+    color: red;
+}
+.select-box {
+    background: transparent;
+    color: #65cfad;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 130px;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+.select-box:after {
+    content: '\25BC';
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    bottom: 0;
+    font-size: 12px;
+    color: #65cfad;
+}
+.select-box p{
+    padding: 4px 6px;
+    font-size: 12px;
+}
+.select-option {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    background: #393838;
+    opacity: 0.9;
+}
+.select-option ul{
+    margin: 0;
+    padding: 0;
+    padding: 6px 0px;
+}
+.select-option ul li {
+    list-style-type: none;
+    padding: 3px 8px;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+}
+input[type="checkbox"] {
+    appearance: none;
+    background-color: inherit;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    margin-right: 5px;
+    display: grid;
+    place-content: center;
+}
+input[type="checkbox"]::before {
+content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #65cfad;
+  background-color: CanvasText;
+  }
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="checkbox"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+  }
+.filter-rounded{
+    display: flex;
+    font-size: 14px;
+    color: white;
+    padding: 6px 16px;
+    background: #595959;
+    border-radius: 20px;
+    color: #9c9c9c;
+    margin-right: 15px;
+}
+.filter-rounded span {
+    margin-left: 15px;
+    transform: scaleX(1.4);
+}

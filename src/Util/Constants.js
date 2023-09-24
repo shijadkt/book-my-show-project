@@ -1,0 +1,25 @@
+export const generesList = [
+  "Action",
+  "Adventure",
+  "Animation",
+  "Biography",
+  "Classic",
+  "Comedy",
+  "Crime",
+  "Drama",
+  "Family",
+  "Fantasy",
+  "History",
+  "Horror",
+  "Musical",
+  "Mystery",
+  "Period",
+  "Romance",
+  "Sci-Fi",
+  "Social",
+  "Sports",
+  "Thriller",
+  "War",
+];
+
+export const trendList = ["Fresh", "Popular"];

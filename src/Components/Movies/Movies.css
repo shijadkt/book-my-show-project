@@ -1,0 +1,6 @@
+.movies-outer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    background: #2e2b2b;
+}
